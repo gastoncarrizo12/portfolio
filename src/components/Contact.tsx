@@ -66,7 +66,6 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contáctame</h1>
-          <p>¿Tienes un proyecto esperando ser realizado? ¡Colaboremos y hagámoslo realidad!</p>
           <Box component="form" noValidate autoComplete="off" onSubmit={sendEmail} sx={{ width: '100%', display: 'flex', flexDirection: 'column', gap: 2 }}>
             <TextField
               required

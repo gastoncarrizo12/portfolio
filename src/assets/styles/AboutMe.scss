@@ -1,0 +1,47 @@
+/* Contenedor principal para AboutMe */
+.aboutme-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    svg{
+        color: white;
+    }
+}
+
+/* Título */
+.aboutme-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Estilo del texto de AboutMe */
+.aboutme-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Icono */
+.aboutme-container svg {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 0; /* Alinea el ícono a la izquierda */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .aboutme-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 567px) {
+    .aboutme-container p {
+        font-size: 0.9rem;
+    }
+}

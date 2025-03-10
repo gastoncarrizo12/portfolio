@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Desarrollador Full Stack</h3>
             <h4 className="vertical-timeline-element-subtitle">Bookcloud - Proyecto Final</h4>
             <p>
-              Desarrollador Frontend, Desarrollador Backend, Experiencia de Usuario, Lider de Equipo, Tester.
+              Desarrollador FullStack, Experiencia de Usuario, Lider de Equipo, Tester.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
