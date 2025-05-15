@@ -94,4 +94,52 @@
   .carousel-container:hover .carousel {
     transform: translateX(-100%); /* Cambia la posición de las imágenes */
   }
-  
+
+  .project-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  }
+
+    h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .btn-view {
+    padding: 0.4rem 1rem;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #005f99;
+    }
+  }
+
+  .project-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; // espacio pequeño entre título y botón
+  margin-top: 1rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+
+    a {
+      color: inherit; // para que el link herede color del h2 o puedas definir color específico
+      text-decoration: none;
+      font-size: 1.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  }
